@@ -4,7 +4,6 @@
    -webkit-font-smoothing: antialiased;
  }
 
-
 /*Class Selectors********************/
 .img-responsive {
   /*max-width: 120%;*/
@@ -18,29 +17,18 @@
 .black-box {
   position: absolute;
   bottom: 15px;
-  left: 30px;
+  left: 15px;
   background-color: #263238;
   padding: 15px;
   max-width: 80%;
 }
 
-.black-box > * {
-  color: white;
-  /*margin: 0;*/
-}
-
-/*.box-b, .box-c {
-  padding-right: 0;
-}*/
-
-.box-b, .box-c > * {
-  /*margin: 0;*/
+.black-box, .box-b, .box-c > * {
   color: white;
 }
 
 .box-b {
   background-color: #0D46A0;
-  height: 100%;
 }
 
 .box-c {
@@ -57,21 +45,42 @@
  }
 
  #woman-img {
-   background-image: url('../img/woman.jpg');
+   background: url('../img/woman.jpg');
    height: 20rem;
    background-size: cover;
-   background-position: center center;
+   background-position: 80% center;
  }
 
  #tablet-img {
-   background-image: url('../img/tablet-smile.jpg');
+   background: url('../img/tablet-smile.jpg');
    height: 20rem;
    background-size: cover;
-   background-position: center center;
+   background-position: 80% center;
  }
 
 
 /*Media Queries**********************/
 @media screen and (max-width: 767px) {
-  
+  h5 {
+    display: none;
+  }
+
+  .box-b {
+    height: 20rem;
+  }
+
+  .box-c {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .black-box {
+    max-width: 304px;
+    height: 304px;
+  }
+
+  .black-box {
+    display: block;
+  }
 }
