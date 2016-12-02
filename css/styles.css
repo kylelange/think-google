@@ -48,16 +48,30 @@
 }
 
 /*Id Selectors***********************/
- #main-box {
+ #main-img {
    background-image: url('../img/orange-couch.jpg');
    position: relative;
-   height: 50rem;
+   height: 57.5rem;
    background-size: cover;
-   background-position: center;
+   background-position: center center;
  }
 
- #main-box img {
+ #woman-img {
+   background-image: url('../img/woman.jpg');
+   height: 20rem;
+   background-size: cover;
+   background-position: center center;
+ }
+
+ #tablet-img {
+   background-image: url('../img/tablet-smile.jpg');
+   height: 20rem;
+   background-size: cover;
+   background-position: center center;
  }
 
 
 /*Media Queries**********************/
+@media screen and (max-width: 767px) {
+  
+}
