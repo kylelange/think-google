@@ -49,8 +49,11 @@
 
 /*Id Selectors***********************/
  #main-box {
-   /*background-image: url('../img/orange-couch.jpg');*/
+   background-image: url('../img/orange-couch.jpg');
    position: relative;
+   height: 50rem;
+   background-size: cover;
+   background-position: center;
  }
 
  #main-box img {
