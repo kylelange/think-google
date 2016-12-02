@@ -6,6 +6,9 @@
 
 
 /*Class Selectors********************/
+.img-responsive {
+  /*max-width: 120%;*/
+}
 
 .logo {
   width: 186;
@@ -13,18 +16,45 @@
 }
 
 .black-box {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
   background-color: #263238;
-  padding: 10px;
-
+  padding: 15px;
+  max-width: 80%;
 }
 
 .black-box > * {
   color: white;
+  /*margin: 0;*/
 }
 
+/*.box-b, .box-c {
+  padding-right: 0;
+}*/
+
+.box-b, .box-c > * {
+  /*margin: 0;*/
+  color: white;
+}
+
+.box-b {
+  background-color: #0D46A0;
+  height: 100%;
+}
+
+.box-c {
+  background-color: #009688;
+}
 
 /*Id Selectors***********************/
+ #main-box {
+   /*background-image: url('../img/orange-couch.jpg');*/
+   position: relative;
+ }
 
+ #main-box img {
+ }
 
 
 /*Media Queries**********************/
