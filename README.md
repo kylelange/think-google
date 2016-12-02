@@ -1,9 +1,9 @@
 # _(Mock) Google Think_
 
-#### _{A responsive site using a framework}, {Dec 2, 2016}_
+#### _A responsive site using Bootstrap 3, {Dec 2, 2016}_
 
 #### By _**Kyle Lange**_
-
+[See it live here.](https://kylelange.github.io/think-google/)
 ![screenshot](Screen Shot.png)
 
 
