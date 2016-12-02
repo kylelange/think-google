@@ -4,14 +4,31 @@
    -webkit-font-smoothing: antialiased;
  }
 
+ a {
+   color: #fff;
+ }
+
+ a:hover {
+   color: #fff;
+ }
+
 /*Class Selectors********************/
-.img-responsive {
-  /*max-width: 120%;*/
+.container {
+  width: 100%;
+  margin-top: -20px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  height: 64px;
+  padding-top: 8px;
+  border-radius: 0;
 }
 
 .logo {
-  width: 186;
-  height: 26px;
+  width: 186px;
+  height: 28px;
+  margin-top: -5px;
 }
 
 .black-box {
@@ -19,7 +36,7 @@
   bottom: 15px;
   left: 15px;
   background-color: #263238;
-  padding: 15px;
+  padding: 20px;
   max-width: 80%;
 }
 
@@ -80,7 +97,8 @@
     height: 304px;
   }
 
-  .black-box {
-    display: block;
+  .black-box h5 {
+    padding-top: 10px;
   }
+
 }
