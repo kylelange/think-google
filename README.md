@@ -1,37 +1,60 @@
-# _{Application Name}_
+# _(Mock) Google Think_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{A responsive site using a framework}, {Dec 2, 2016}_
 
-#### By _**{List of contributors}**_
+#### By _**Kyle Lange**_
+
+![screenshot](Screen Shot.png)
+
 
 ## Description
+ This week's code review must include:
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+ * Relative units used where appropriate.
+
+* Page(s) respond to at least three different screen sizes.
+
+* Images are fluid.
+
+* Project is in a polished, portfolio-quality state.
+
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1. Download this repo using your terminal: git clone repo-name pasted here
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io)
+
+3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)__
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML5
+* CSS3 with Bootstrap 3
+* JavaScript with jQuery 3.1
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) 2016 **_Kyle Lange_**
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
